@@ -1,0 +1,68 @@
+/*original image, resized*/
+img{
+    height: 200px;
+    width: auto;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+nav{
+    float: right;
+    position: relative;
+    top: 30px;
+}  
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 26px;
+}
+h1, h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*removed bullet points below*/
+ul{
+    list-style-type: none;
+}
+/*positioned links to the right side of page*/
+li {
+    float: left;
+}
+/*aligned links horizontally*/
+li a {
+    display: block;
+    padding: 8px;
+}
+/*Form*/
+form{
+    margin: 0 auto;
+    width: 800px;
+}
+/*creates padding between input fields*/
+form div + div{
+    margin-top: 1em;
+}
+/*ensures all albels have same size/alignment */
+label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+/*all text fields have same font settings*/
+input, textarea{
+    font: 1em sans-serif;
+    width: 600px;
+    box-sizing:border-box;
+}
+/*aligned text fields with labels*/
+textarea{
+    vertical-align: top;
+    height: 5em;
+}
+/*aligned links horizontally*/
+.button {
+    /*position button to the same position of text fields*/
+    padding-left: 87.5px; /* same size as the label elements */
+  }
+
+  button{
+      margin-left: .5em;
+  }
