@@ -1,6 +1,6 @@
 /*original image, resized*/
 body{
-    background-image: url(./assets/images/succulent_vector.jpg);    
+    background-image: url(./assets/images/greyfloral.png);    
     padding-top: 3px;
     padding-bottom: 3px;
     width: 960px;
@@ -45,9 +45,9 @@ section.main.para{
     padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
+    border: 1px solid rgba(227, 227, 227, 0.884);
 }
 img{
-    iamge: url(./assets/images/17973758_10211774238501697_845662861226526202_o.jpg);
     height: 200px;
     width: auto;
     float: left;
@@ -80,11 +80,17 @@ nav a {
     text-decoration:  none;
     border-left: 1px solid #efefef9d;
 }
+nav.portfolio{
+    border-left: 4px solid rgb(43, 41, 41);
+}
  nav a:visited { 
     text-decoration: none; color:#000; 
     }
 nav a:hover { 
     text-decoration: none; color:#000; background-color: rgb(9, 128, 128); 
+    height: 30px;
+    padding-right: 15px;
+    padding-top: 5px;
     }
 /*Form*/
 form{
@@ -126,4 +132,15 @@ textarea{
       width: 960 px;
       background-color: whitesmoke;
   }
- 
+
+  .copyright{
+    background-color: rgb(102,102,102);
+    border-top: 4px solid rgb(9, 128, 128);
+    padding-top: 25px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: arial;
+    font-size: 10px;
+    margin-top: 50px;
+  }
