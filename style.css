@@ -3,7 +3,7 @@ body{
     background-image: url(./assets/images/greyfloral.png);    
     padding-top: 3px;
     padding-bottom: 3px;
-    width: 960px;
+    /*width: 960px;*/
     margin-left:auto;
     margin-right: auto;
 }
@@ -20,6 +20,7 @@ body{
     height: 2.1em;
     padding-top: 18px;
     padding-right: 25px;
+    margin-right: 125px;
     float: right;
 }
 myName{
@@ -31,6 +32,7 @@ myName{
     padding-top: 7px;
     padding-left: 5px;
     padding-right: 5px;
+    margin-left: 125px;
     text-align: center;
 }
 .headText{
@@ -41,11 +43,14 @@ myName{
     width: 150px;
 }
 section.main.para{
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: 1px solid rgba(227, 227, 227, 0.884);
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 img{
     height: 200px;
@@ -69,6 +74,10 @@ h1{
   background-color: whitesmoke;
   border-bottom: 1px solid rgb(9, 128, 128);
 }
+h2{
+    border-bottom: 1px solid #3b37379d;
+    padding-bottom: 20px;
+}
 
 /*removed bullet points below*/
 nav a {
@@ -78,20 +87,20 @@ nav a {
     /* line-height:  18px; */
     color: #999;
     text-decoration:  none;
-    border-left: 1px solid #efefef9d;
+    border-left: 1px solid #3b37379d;
 }
-nav.portfolio{
-    border-left: 4px solid rgb(43, 41, 41);
-}
- nav a:visited { 
-    text-decoration: none; color:#000; 
+   nav a:first-child{
+        border-left: none;
     }
-nav a:hover { 
-    text-decoration: none; color:#000; background-color: rgb(9, 128, 128); 
-    height: 30px;
-    padding-right: 15px;
-    padding-top: 5px;
-    }
+    nav a:visited { 
+        text-decoration: none; color:#000; 
+        }
+    nav a:hover { 
+        text-decoration: none; color:#000; background-color: rgb(9, 128, 128); 
+        height: 30px;
+        padding-right: 15px;
+        padding-top: 5px;
+        }
 /*Form*/
 form{
     margin: 0 auto;
@@ -116,7 +125,7 @@ input, textarea{
 /*aligned text fields with labels*/
 textarea{
     vertical-align: top;
-    height: 5em;
+    height: 200px;
 }
 /*aligned links horizontally*/
 .button {
@@ -129,7 +138,6 @@ textarea{
   }
 
   section{
-      width: 960 px;
       background-color: whitesmoke;
   }
 
@@ -143,4 +151,29 @@ textarea{
     font-family: arial;
     font-size: 10px;
     margin-top: 50px;
+  }
+  footer{
+      margin: 0 auto;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  img.cardPic{
+      padding: 0px;
+  }
+  h4{
+      background-color: rgba(9, 128, 128, 0.5);
+  }
+  div.card{
+      float: left:
   }
