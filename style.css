@@ -42,7 +42,8 @@ myName{
 .about{
     width: 150px;
 }
-section.main.para{
+.mainpara{
+    background-color: whitesmoke;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 10px;
@@ -137,10 +138,6 @@ textarea{
       margin-left: .5em;
   }
 
-  section{
-      background-color: whitesmoke;
-  }
-
   .copyright{
     background-color: rgb(102,102,102);
     border-top: 4px solid rgb(9, 128, 128);
@@ -156,24 +153,31 @@ textarea{
       margin: 0 auto;
   }
 
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-  }
-  
-  .title {
-    color: grey;
-    font-size: 18px;
-  }
-  img.cardPic{
-      padding: 0px;
-  }
-  h4{
-      background-color: rgba(9, 128, 128, 0.5);
-  }
-  div.card{
-      float: left:
-  }
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    width: 600px;
+}
+.card{
+padding-top: 8px;
+padding-bottom: 8px;
+}
+
+.card-title{
+    background-color: rgba(86, 286, 286, .75);
+    position: relative;
+    margin-top: 120px;
+}
+.card-text{
+text-align: center;
+}
+.card-header{
+    background-image: url(./assets/images/travel.jpg);
+    height: 150px;
+    width: 200px;
+    position:relative;
+}
