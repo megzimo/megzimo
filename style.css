@@ -27,6 +27,7 @@ myName{
     float:left;
     width: 250px;
     color: lightcyan;
+    font-size: 28px;
     background-color: rgb(9, 128, 128);
     height: 47px;
     padding-top: 7px;
@@ -54,7 +55,7 @@ myName{
     margin-right: auto;
 }
 img{
-    height: 200px;
+    height: 175px;
     width: auto;
     float: left;
     padding-left: 10px;
