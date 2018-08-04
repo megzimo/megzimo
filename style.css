@@ -25,7 +25,7 @@ body{
 }
 myName{
     float:left;
-    width: 250px;
+    width: 275px;
     color: lightcyan;
     font-size: 25px;
     background-color: rgb(9, 128, 128);
@@ -38,6 +38,7 @@ myName{
 }
 .headText{
     vertical-align: bottom;
+    font-size: 28px;
 }
 
 .about{
